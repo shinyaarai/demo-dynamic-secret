@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Fetch dynamic secrets from Akeyless
         id: fetch-dynamic-secrets
-        uses: akeyless-community/akeyless-github-action@v1.0.1
+        uses: akeyless-community/akeyless-github-action@v1.1.1
         with:
           access-id: '${{ secrets.ACCESS_ID }}'
           dynamic-secrets: |
